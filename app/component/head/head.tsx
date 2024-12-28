@@ -1,15 +1,21 @@
 "use client";
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link'
 
 function Head() {
     const [isOpen, setIsOpen] = useState(false);
+    const [hasLoaded, setHasLoaded] = useState(false);
+
+    useEffect(() => {
+
+        setHasLoaded(true);
+    }, []);
 
     return (
-        <div className="bg-banner bg-cover bg-center h-96">
+        <div className="bg-banner bg-cover bg-center h-[450px]">
             <nav className="flex items-center justify-between flex-wrap p-6">
                 <div className="flex items-center flex-shrink-0 text-white mr-6 lg:mr-72">
-                    <h1 className="w-100 h-10 mr-2 text-black text-sky-500 font-bold text-xl">Anik Portfolio</h1>
+                    <h1 className="w-100 h-10 mr-2 text-black text-white font-bold text-xl">Anik Portfolio</h1>
                 </div>
                 <div className="block lg:hidden">
                     <button
@@ -39,22 +45,61 @@ function Head() {
                         <Link href="/" className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-gray-400">
                             Home
                         </Link>
-                        <Link href="./Head" className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-gray-400">
+                        <Link href="" className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-gray-400">
                             About me
                         </Link>
-                       
+
                         <Link href="#" className="block mt-4 lg:inline-block lg:mt-0 text-white mr-4 hover:text-gray-400">
                             Contact
                         </Link>
                     </div>
                 </div>
             </nav>
-            <div className='text-center text-white text-4xl font-bold mt-12'>
+            {/* <div className='text-center text-white text-4xl font-bold mt-12'>
                 <p>Hello I am Anik</p>
             </div>
             <div className='text-center text-white text-base font-bold mt-8'>
                 <p>Welcome to my portfolio page</p>
+            </div> */}
+            <div className="grid grid-cols-2 gap-4 items-center mt-6">
+                <div className={` ${hasLoaded ? 'slide-in-left' : ''}`}>
+                    <div >
+                        <div className="text-center text-white text-6xl font-bold mt-4">
+                            <p>Hello I am</p>
+                        </div>
+                        <div className="text-center text-white text-6xl font-bold mt-4">
+                            <p>Anik Lal Dey</p>
+                        </div>
+
+                    </div>
+                    <div className="text-center text-white text-base font-bold mt-6">
+                        <p>Welcome to my portfolio page</p>
+                    </div>
+                    <div className="text-center text-white text-base font-bold mt-6">
+                        <a
+                            href="/Anik%20Lal%20Dey_CV.pdf"
+                            download
+                            className="btn btn-accent text-white font-bold"
+                        >
+                            Download my CV
+                        </a>
+                    </div>
+
+                </div>
+
+                {/* <div >
+                    <div className="flex justify-center mt-6">
+                        <div className="avatar">
+                            <div className="ring-primary ring-offset-base-100  rounded-full ring ring-offset-2  my-image">
+                            </div>
+                        </div>
+                    </div>
+
+                </div> */}
+
             </div>
+
+
         </div>
     );
 }

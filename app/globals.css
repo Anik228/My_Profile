@@ -6,3 +6,69 @@
   /* Replace 'your-image.jpg' with the path to your background image */
   background-image: url('../public/cover.jpg');
 }
+
+.my-image-about {
+  background-image: url('../public/Anik-gray.png');
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Avoid repeating the image */
+
+}
+
+
+.my-image {
+  background-image: url('../public/Anik.jpg');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  width: 250px;
+  height: 300px;
+}
+
+/* Define the animation */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* End at the original position */
+    opacity: 1;
+  }
+}
+/* Animated state */
+.slide-in-right {
+  animation: slideInFromRight 1s ease-out forwards;
+}
+
+/* Define the animation */
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%); /* Start off-screen to the left */
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0); /* End at the original position */
+    opacity: 1;
+  }
+}
+/* Animated state */
+.slide-in-left {
+  animation: slideInFromLeft 1s ease-out forwards;
+}
+
+/* Default state for the component */
+.avatar-class {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+
+
+
+
+
+
+
+
