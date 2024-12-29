@@ -13,7 +13,7 @@ const Workingex = () => {
   return (
     <div>
       <div className='container mx-auto px-12 mt-16 mb-12'>
-        <div className="grid grid-cols-2 gap-2 items-center">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-2 md:gap-4 lg:gap-2 items-center">
 
           <div className={`avatar avatar-class ${hasLoaded ? 'slide-in-left' : ''}`}>
             <div className="rounded-xl w-[450px] h-[450px] my-image-about"></div>
@@ -29,7 +29,6 @@ const Workingex = () => {
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>

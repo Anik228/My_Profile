@@ -15,9 +15,9 @@ const Footer = () => {
           <a className="link link-hover">Database Administrator</a>
         </nav>
         <nav>
-          <h6 className="footer-title">Info</h6>
-          <a className="link link-hover">About us</a>
-          <a className="link link-hover">Contact</a>
+          <h6 className="footer-title">Contact</h6>
+          <a className="link link-hover">+8801973174426</a>
+          <a className="link link-hover">aniklal2020@gmail.com</a>
           <a className="link link-hover">Download My CV</a>
 
         </nav>

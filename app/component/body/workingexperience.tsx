@@ -19,13 +19,13 @@ const Workingexpreience = () => {
                 <div className="flex items-center justify-center mb-4">
                     <h2 className="card-title text-center">My Work Experience</h2>
                 </div>
-                <div className="grid grid-cols-1 gap-2 items-center">
+                <div className="grid grid-cols-1 items-center">
                     <div className={` ${hasLoaded ? 'slide-in-left' : ''}`}>
                         <div className="card bg-base-100 w-full shadow-xl h-full">
 
 
                             <div className='mx-auto px-4 mt-4 mb-12'>
-                                <div className="grid grid-cols-2 gap-2 items-center">
+                                <div className="grid grid-cols-1 md:grid-cols-2 md:gap-4 items-center">
                                     <div className="card bg-base-100 w-fit shadow-xl mx-auto justify-center">
                                         {/* <div
                                             className="flex items-center justify-center mt-8">

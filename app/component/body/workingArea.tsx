@@ -10,11 +10,11 @@ import { RiNextjsLine } from "react-icons/ri";
 const WorkingArena = () => {
     return (
         <div>
-            <div className="grid grid-cols-3 gap-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-2 md:gap-4 mt-12">
 
                 {/* ASP.NET Card */}
                 <div>
-                    <div className="card bg-base-100 w-full  h-fit shadow-xl">
+                    <div className="card bg-base-100 w-full  h-full shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
                                 <AiOutlineDotNet className="text-4xl text-blue-600" />
@@ -70,7 +70,7 @@ const WorkingArena = () => {
 
                 {/* Java Card */}
                 <div>
-                    <div className="card bg-base-100 w-full  shadow-xl">
+                    <div className="card bg-base-100 w-full h-full  shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
                                 <FaJava className="text-4xl text-blue-600" />
@@ -109,7 +109,7 @@ const WorkingArena = () => {
                 </div>
 
                 <div>
-                    <div className="card bg-base-100 w-full shadow-xl">
+                    <div className="card bg-base-100 w-full h-full shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
                                 <SiNestjs className="text-4xl text-blue-600" />
@@ -165,7 +165,7 @@ const WorkingArena = () => {
                 </div>
 
                 <div>
-                    <div className="card bg-base-100 w-full  shadow-xl">
+                    <div className="card bg-base-100 w-full h-full shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
                                 <RiNextjsLine className="text-4xl text-blue-600" />
@@ -211,7 +211,7 @@ const WorkingArena = () => {
 
 
                 <div>
-                    <div className="card bg-base-100 w-full  shadow-xl">
+                    <div className="card bg-base-100 w-full  h-full shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
                                 <FaDatabase className="text-4xl text-blue-600" />
@@ -219,7 +219,7 @@ const WorkingArena = () => {
                             <div className="flex justify-center text-center">
                                 <p className="text-base font-bold">Databases</p>
                             </div>
-                            <p className="text-sm text-center">Oracle,MSSQL,PostSQL</p>
+                            <p className="text-sm text-center">MSSQL, Oracle, PostgreSQL</p>
                             <div className="text-center">
                                 <label htmlFor="my_modal_db" className="text-blue-500 text-xs cursor-pointer hover:underline">
                                     View Work Details
@@ -258,6 +258,8 @@ const WorkingArena = () => {
                         </div>
                     </div>
                 </div>
+
+                
 
                 
             </div>
