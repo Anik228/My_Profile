@@ -36,7 +36,7 @@ const WorkingArena = () => {
                                     <div className='mb-4'>
                                         <h3 className="text-base font-bold">Working on ASP.NET</h3>
                                     </div>
-                                    <div className="text-xs">
+                                    <div className="text-xs font-bold">
                                         <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                             <li className="flex items-center">
                                                 <span className="mr-2 text-blue-500">✔️</span>
@@ -92,7 +92,7 @@ const WorkingArena = () => {
                                     <div className='mb-4'>
                                         <h3 className="text-base font-bold">Working on Java</h3>
                                     </div>
-                                    <div className="text-xs">
+                                    <div className="text-xs font-bold">
                                         <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                             <li className="flex items-center">
                                                 <span className="mr-2 text-blue-500">✔️</span>
@@ -131,7 +131,7 @@ const WorkingArena = () => {
                                     <div className='mb-4'>
                                         <h3 className="text-base font-bold">Working in NestJs and NodeJs</h3>
                                     </div>
-                                    <div className="text-xs">
+                                    <div className="text-xs font-bold">
                                         <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                             <li className="flex items-center">
                                                 <span className="mr-2 text-blue-500">✔️</span>
@@ -233,7 +233,7 @@ const WorkingArena = () => {
                                     <div className='mb-4'>
                                         <h3 className="text-base font-bold">Databases</h3>
                                     </div>
-                                    <div className="text-xs">
+                                    <div className="text-xs font-bold">
                                         <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                             <li className="flex items-center">
                                                 <span className="mr-2 text-blue-500">✔️</span>
