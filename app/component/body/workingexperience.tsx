@@ -191,7 +191,7 @@ const Workingexpreience = () => {
                                                     Working in Supernova Techno Limited as a Jr Software Engineer, my working clients are Robi Axiata Limited, bKash, and Banglalink. Working in Supernova Techno Limited I handled a big VAS platform database which have four charging channel IVR,SMS,WAP & USSD & I big database and provide an efficient VAS platform experience to the user. I also work on a big message sender & billing management database.  I used here MSSQL,Oracle & PostgreSQL
                                                 </p>
                                             </div>
-                                            <div className='mt-4 px-4'>
+                                            <div className='mt-4 pr-4'>
                                                 <JoinTime />
                                             </div>
 
