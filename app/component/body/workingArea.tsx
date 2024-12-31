@@ -6,6 +6,7 @@ import { FaJava } from "react-icons/fa";
 import { SiNestjs } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
+import { FaPhp } from "react-icons/fa";
 
 const WorkingArena = () => {
     return (
@@ -74,6 +75,25 @@ const WorkingArena = () => {
                     <div className="card bg-base-100 w-full h-full shadow-xl">
                         <div className="px-4 py-4">
                             <div className="flex items-center justify-center">
+                                <FaPhp className="text-4xl text-blue-600" />
+                            </div>
+                            <div className="flex justify-center text-center">
+                                <p className="text-base font-bold">PHP</p>
+                            </div>
+                            <p className="text-sm text-center">Working on PHP CodeIgniter</p>
+                            <div className="text-center">
+                                <label htmlFor="my_modal_php" className="text-blue-500 text-xs cursor-pointer hover:underline">
+                                    View Work Details
+                                </label>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <div className="card bg-base-100 w-full h-full shadow-xl">
+                        <div className="px-4 py-4">
+                            <div className="flex items-center justify-center">
                                 <RiNextjsLine className="text-4xl text-blue-600" />
                             </div>
                             <div className="flex justify-center text-center">
@@ -88,6 +108,8 @@ const WorkingArena = () => {
                         </div>
                     </div>
                 </div>
+
+
 
 
                 <div>
