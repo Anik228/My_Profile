@@ -46,14 +46,12 @@ const Workingexpreience = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a network monitoring solution using NextJs,Tailwind CSS, daisyUI.
+                                    Worked on a network monitoring solution using Next.js,Tailwind CSS, daisyUI.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
                                     Worked on portal development using html,css and bootstrap.
                                 </li>
-
-
                             </ul>
                         </div>
 
@@ -65,7 +63,7 @@ const Workingexpreience = () => {
                 <div className="modal" role="dialog">
                     <div className="modal-box">
                         <div className='mb-4'>
-                            <h3 className="text-base font-bold">Working in NestJs and NodeJs</h3>
+                            <h3 className="text-base font-bold">Working in NestJs and Node.js</h3>
                         </div>
                         <div className="text-xs font-bold">
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
@@ -79,7 +77,7 @@ const Workingexpreience = () => {
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a health service project name robi healthplus using NestJS and MSSQL
+                                    Worked on a health service project name robi healthplus using NestJS, Node.js and MSSQL
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>

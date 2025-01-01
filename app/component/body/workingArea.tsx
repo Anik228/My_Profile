@@ -97,9 +97,9 @@ const WorkingArena = () => {
                                 <RiNextjsLine className="text-4xl text-blue-600" />
                             </div>
                             <div className="flex justify-center text-center">
-                                <p className="text-base font-bold">NextJs</p>
+                                <p className="text-base font-bold">Next.js</p>
                             </div>
-                            <p className="text-sm text-center">Working on NextJs</p>
+                            <p className="text-sm text-center">Working on Next.js</p>
                             <div className="text-center">
                                 <label htmlFor="my_modal_next" className="text-blue-500 text-xs cursor-pointer hover:underline">
                                     View Work Details
