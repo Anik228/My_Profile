@@ -69,23 +69,23 @@ const Workingexpreience = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a Banglalink project involving backend development using NestJS and MSSQL.
+                                    Worked on BlCare, a Banglalink health service project, using NestJS and MSSQL.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a Banglalink project involving backend development using NestJS and MSSQL.
+                                    Worked on Robi Healthplus, a Robi health service project, using NestJS, Node.js, and MSSQL.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a health service project name robi healthplus using NestJS, Node.js and MSSQL
+                                    Worked on Purno Health, a health service project, using NestJS, Node.js, and MSSQL.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Built a bulk data inserter and AI image generator using NestJS.
+                                    Created a bulk data inserter and bKash SVG banner template generator with QR codes as a demo project of bkash using NestJS.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Developed a network monitoring solution using NestJS and PostgreSQL.
+                                    Worked on a network monitoring solution using NestJS and PostgreSQL.
                                 </li>
 
                             </ul>
