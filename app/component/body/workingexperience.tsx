@@ -104,7 +104,7 @@ const Workingexpreience = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Worked on a VAS platform charging application with two charging channels: IVR and WEB, using ASP.NET and MSSQL, with integration via a SOAP-based API.
+                                    Worked on a VAS platform charging application with two charging channels: IVR, WEB & SMS, using ASP.NET and MSSQL, with integration via a SOAP-based API.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
