@@ -193,21 +193,21 @@ const Workingexpreience = () => {
                                             className="flex items-center justify-center mt-8">
                                             <div className="text-center ">
                                                 <p className="text-base font-bold">Supernova Techno LTD</p>
-                                                <p className="text-sm font-bold">Jr Software Engineer</p>
+                                                <p className="text-sm font-bold">Software Engineer</p>
                                             </div>
                                         </div> */}
                                         <div
                                             className=" mt-8">
                                             <div className="text-center ">
                                                 <p className="text-base font-bold">Supernova Techno LTD</p>
-                                                <p className="text-sm font-bold">Jr Software Engineer</p>
+                                                <p className="text-sm font-bold">Software Engineer</p>
                                             </div>
                                         </div>
 
                                         <div className="card-body">
                                             <div>
                                                 <p className="text-sm text-justify">
-                                                    Working in Supernova Techno Limited as a Jr Software Engineer, my working clients are Robi Axiata Limited, bKash, and Banglalink. Working in Supernova Techno Limited I handled a big VAS platform database which have four charging channel IVR,SMS,WAP & USSD & I big database and provide an efficient VAS platform experience to the user. I also work on a big message sender & billing management database.  I used here MSSQL,Oracle & PostgreSQL
+                                                    Working in Supernova Techno Limited as a Software Engineer, my working clients are Robi Axiata Limited, bKash, and Banglalink. Working in Supernova Techno Limited I handled a big VAS platform database which have four charging channel IVR,SMS,WAP & USSD & I big database and provide an efficient VAS platform experience to the user. I also work on a big message sender & billing management database.  I used here MSSQL,Oracle & PostgreSQL
                                                 </p>
                                             </div>
                                             <div className='mt-4 pr-4'>
