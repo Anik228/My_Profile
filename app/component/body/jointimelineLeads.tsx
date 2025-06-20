@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 
-const JoinTime = () => {
+const JoinTimeLeads = () => {
 
 
     return (
@@ -10,7 +10,7 @@ const JoinTime = () => {
 
             <ul className="timeline">
                 <li>
-                    <div className="timeline-start timeline-box">1 January 2024</div>
+                    <div className="timeline-start timeline-box">15 May 2025</div>
                     <div className="timeline-middle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const JoinTime = () => {
                 </li>
                 <li>
                     <hr />
-                    <div className="timeline-start timeline-box">15 April 2025</div>
+                    <div className="timeline-start timeline-box">Continuing</div>
                     <div className="timeline-middle">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -48,4 +48,4 @@ const JoinTime = () => {
     )
 }
 
-export default JoinTime;
+export default JoinTimeLeads;

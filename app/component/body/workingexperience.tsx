@@ -179,7 +179,7 @@ const Workingexpreience = () => {
 
 
                 <div className="flex items-center justify-center mb-4">
-                    <h2 className="card-title text-center">My Work Experience</h2>
+                   
                 </div>
                 <div className="grid grid-cols-1 items-center">
                     <div className={` ${hasLoaded ? 'slide-in-left' : ''}`}>
