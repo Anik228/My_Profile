@@ -29,7 +29,7 @@ const WorkingexpreienceLeads = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    To be announced
+                                    Creating and maintaining robust frontend architectures using the Angular framework.
                                 </li>
                               
                             </ul>
@@ -51,7 +51,12 @@ const WorkingexpreienceLeads = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                   To be announced
+                                  Worked on a scalable Java Spring Boot–based microservices platform.
+                                </li>
+
+                                <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                   Developed a cheque processing system using the Spring Boot framework.
                                 </li>
                             </ul>
                         </div>
@@ -72,12 +77,24 @@ const WorkingexpreienceLeads = () => {
 
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                    Writing complex stored procedures,functions in Oracle with core banking business logic.
+                                    working on the Oracle Database platform.
                                 </li>
 
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
+                                    Proficient in developing stored procedures, functions, and triggers in Oracle.
+                                </li>
+                                 <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
                                     Writing complex queries in Oracle.
+                                </li>
+                                  <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                    Creating stored procedures in Oracle.
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                    Skilled in Oracle database design and PL/SQL programming.
                                 </li>
 
                             </ul>
@@ -97,11 +114,23 @@ const WorkingexpreienceLeads = () => {
                             <ul className="space-y-2 list-disc pl-5 text-gray-700">
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                   Working on a core banking payment module using ASP.NET Core MVC,ASP.NET Web Forms and ASP .NET Web API.
+                                   Core Banking Systems Development & Maintenance using ASP .NET.
                                 </li>
                                 <li className="flex items-center">
                                     <span className="mr-2 text-blue-500">✔️</span>
-                                   Developing an XML generation and parsing system using ASP.NET Windows Forms.
+                                   Financial Systems & core payment system Integration ASP .NET (BACH ,BEFT & RTGS).
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                    Developed and enhanced features in a desktop XML generator and reader application (BACH,BEFT & RTGS XML Files) using Windows Forms in ASP.NET.
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                    Worked on and developed a customer account verification system (AVS).
+                                </li>
+                                <li className="flex items-center">
+                                    <span className="mr-2 text-blue-500">✔️</span>
+                                    Gained experience with the ASP.NET Web API framework.
                                 </li>
                                 
                             </ul>
@@ -135,7 +164,7 @@ const WorkingexpreienceLeads = () => {
                                         <div className="card-body">
                                             <div>
                                                 <p className="text-sm text-justify">
-                                                   Working as a Software Engineer in the Core Banking Solutions department, utilizing #ASP.NET and #Oracle technologies. Gaining hands-on experience by collaborating directly with bank clients and working on core banking systems.
+                                                        Working as a Software Engineer in the Core Banking Solutions department, where I develop and maintain core banking systems using technologies such as ASP.NET, Java Spring Boot, Angular, Oracle, REST APIs, and SOAP services. My role involves direct collaboration with banking clients, allowing me to gain hands-on experience and a deeper understanding of real-world financial operations. I actively contribute to system development and integration while following Agile Software Development Lifecycle (SDLC) methodologies to ensure efficient and structured project delivery.
                                                 </p>
                                             </div>
                                             <div className='mt-4 pr-4'>
