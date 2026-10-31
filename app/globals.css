@@ -2,73 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-banner {
-  /* Replace 'your-image.jpg' with the path to your background image */
-  background-image: url('../public/cover.jpg');
-}
+:root { --bg:#1d2533; --bg2:#262f40; --card:#2a3446; --teal:#5eead4; --text:#e2e8f0; --muted:#94a3b8; }
+html, body { background: var(--bg); color: var(--text); }
 
-.my-image-about {
-  background-image: url('../public/Anik-gray.png');
-  background-size: cover; /* Ensure the image covers the entire container */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Avoid repeating the image */
+.hero-bg { background: radial-gradient(ellipse at 30% 35%, #2c3a54 0%, #1d2533 60%), var(--bg);
+  position: relative; overflow: hidden; }
+.hero-bg::before { content:""; position:absolute; inset:0; opacity:.5;
+  background-image: linear-gradient(rgba(255,255,255,.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.03) 1px, transparent 1px);
+  background-size: 28px 28px; }
+.skyline { position:absolute; left:0; right:0; bottom:0; height:150px; background: rgba(255,255,255,.04);
+  clip-path: polygon(0 55%,6% 55%,6% 30%,12% 30%,12% 62%,19% 62%,19% 40%,25% 40%,25% 70%,32% 70%,32% 48%,40% 48%,40% 22%,46% 22%,46% 58%,54% 58%,54% 36%,61% 36%,61% 66%,69% 66%,69% 44%,76% 44%,76% 60%,84% 60%,84% 28%,91% 28%,91% 52%,100% 52%,100% 100%,0 100%); }
 
-}
+.sec-title { display:flex; align-items:center; justify-content:center; gap:.6rem; font-weight:700; font-size:1.15rem; margin-bottom:2.5rem; }
+.sec-title i { width:.7rem; height:.7rem; border:2px solid var(--teal); display:inline-block; }
+.btn-outline { border:1.5px solid var(--teal); color:var(--teal); padding:.6rem 1.6rem; border-radius:.25rem; font-size:.8rem; letter-spacing:.05em; text-transform:uppercase; transition:all .25s; display:inline-block; }
+.btn-outline:hover { background:var(--teal); color:#0f172a; }
+.card { background:var(--card); border-top:5px solid var(--teal); border-radius:.4rem; box-shadow:0 10px 25px rgba(0,0,0,.25); transition:transform .3s; }
+.card:hover { transform:translateY(-4px); }
+.chip { font-size:.65rem; padding:.15rem .6rem; border:1px solid var(--teal); color:var(--teal); border-radius:999px; text-transform:uppercase; letter-spacing:.04em; }
 
+.reveal { opacity:0; transform:translateY(24px); transition:opacity .7s ease, transform .7s ease; }
+.reveal.in { opacity:1; transform:none; }
+@keyframes float { 50% { transform: translateY(-10px); } }
+.float { animation: float 5s ease-in-out infinite; }
+@media (prefers-reduced-motion: reduce) { .reveal{opacity:1;transform:none;transition:none;} .float{animation:none;} }
 
-.my-image {
-  background-image: url('../public/Anik.jpg');
-  background-size: cover; 
-  background-position: center;
-  background-repeat: no-repeat; 
-  width: 250px;
-  height: 300px;
-}
-
-/* Define the animation */
-@keyframes slideInFromRight {
-  0% {
-    transform: translateX(100%); /* Start off-screen to the left */
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0); /* End at the original position */
-    opacity: 1;
-  }
-}
-/* Animated state */
-.slide-in-right {
-  animation: slideInFromRight 1s ease-out forwards;
-}
-
-/* Define the animation */
-@keyframes slideInFromLeft {
-  0% {
-    transform: translateX(-100%); /* Start off-screen to the left */
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0); /* End at the original position */
-    opacity: 1;
-  }
-}
-/* Animated state */
-.slide-in-left {
-  animation: slideInFromLeft 1s ease-out forwards;
-}
-
-/* Default state for the component */
-.avatar-class {
-  transform: translateX(-100%);
-  opacity: 0;
-  transition: transform 0.3s ease-out, opacity 0.3s ease-out;
-}
-
-
-
-
-
-
-
-
-
+/* ---- home page upgrade ---- */
+.xp-card { position:relative; background:linear-gradient(145deg,#2d384c,#252e3f); border:1px solid rgba(255,255,255,.06); border-radius:.9rem; box-shadow:0 12px 30px rgba(0,0,0,.28); transition:border-color .3s, transform .3s, box-shadow .3s; overflow:hidden; }
+.xp-card::before { content:""; position:absolute; inset:0 0 auto 0; height:3px; background:linear-gradient(90deg,var(--teal),#818cf8); }
+.xp-card:hover { border-color:rgba(94,234,212,.45); transform:translateY(-3px); box-shadow:0 18px 40px rgba(0,0,0,.35), 0 0 30px -12px rgba(94,234,212,.5); }
+.xp-point { background:rgba(15,23,42,.35); border:1px solid rgba(255,255,255,.05); border-radius:.6rem; padding:.75rem .9rem; transition:border-color .25s, background .25s; }
+.xp-point:hover { border-color:rgba(94,234,212,.35); background:rgba(15,23,42,.55); }
+.rail { position:absolute; left:19px; top:.5rem; bottom:.5rem; width:2px; background:linear-gradient(to bottom,var(--teal),rgba(94,234,212,.15) 70%,transparent); }
+.node { position:absolute; left:-3rem; top:1.25rem; width:2.4rem; height:2.4rem; border-radius:999px; background:#1d2533; border:2px solid var(--teal); color:var(--teal); display:grid; place-items:center; z-index:2; }
+.node.live::after { content:""; position:absolute; inset:-6px; border-radius:999px; border:2px solid var(--teal); animation:ping 2s cubic-bezier(0,0,.2,1) infinite; }
+@keyframes ping { 75%,100% { transform:scale(1.5); opacity:0; } }
+.stat { background:rgba(42,52,70,.75); backdrop-filter:blur(10px); border:1px solid rgba(255,255,255,.07); border-radius:.9rem; }
+.skill { background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:.9rem; transition:transform .3s, border-color .3s, box-shadow .3s; }
+.skill:hover { transform:translateY(-5px); border-color:var(--c); box-shadow:0 14px 30px -14px var(--c); }
+.contact-card { background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:.9rem; transition:transform .3s, border-color .3s; }
+.contact-card:hover { transform:translateY(-3px); border-color:rgba(94,234,212,.5); }
+@media (prefers-reduced-motion: reduce) { .node.live::after { animation:none; } }
